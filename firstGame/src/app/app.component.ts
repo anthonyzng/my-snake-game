@@ -20,20 +20,20 @@ var context : any;
 
 //muics
 var bg_music = new Audio();
-bg_music.src = '../assets/music/bgm2.mp3'
+bg_music.src = 'assets/music/bgm2.mp3'
 bg_music.loop = true
 bg_music.load();
 var food_sound = new Audio();
-food_sound.src = '../assets/music/eat.wav'
+food_sound.src = 'assets/music/eat.wav'
 var gg = new Audio();
-gg.src = '../assets/music/gameover.wav'
+gg.src = 'assets/music/gameover.wav'
 //snake head
 var img_big = new Image();
 var img_dog = new Image();
 var img_bg  = new Image();
-img_big.src = '../assets/imgs/big_2.svg';
-img_dog.src = '../assets/imgs/Apple.svg';
-img_bg.src = '../assets/imgs/bg.png';
+img_big.src = 'assets/imgs/big_2.svg';
+img_dog.src = 'assets/imgs/Apple.svg';
+img_bg.src = 'assets/imgs/bg.png';
 var head_pattern : any;
 var food_pattern : any;
 var bg_pattern : any;
